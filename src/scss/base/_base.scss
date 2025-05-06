@@ -1,0 +1,25 @@
+@use  "config" as *;
+
+ body {
+    background-color: $white;
+    position: relative;
+    z-index: -100;
+    font-family: "Public Sans", sans-serif;
+    font-size: 1.6rem;
+    
+ }
+
+ a {
+   text-decoration: none;
+   
+ }
+
+ ul,
+ ol {
+   list-style: none;
+ }
+
+
+ img {
+  width: 100%;
+ }

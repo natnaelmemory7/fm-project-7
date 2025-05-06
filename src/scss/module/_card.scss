@@ -1,0 +1,41 @@
+
+
+.card {
+    display: flex;
+ 
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+ 
+    text-align: center;
+    
+    &__hero {
+        padding: 0 3rem;
+        padding-top: 15.7rem;
+        
+
+
+    }
+    &__why {
+      padding: 0;
+     
+    }
+}
+
+
+@media (min-width: 768px){
+    .card {
+
+        &__hero,&__why{
+            align-items: flex-start;
+            padding: 0;
+        }
+
+        &__footer {
+            justify-content: space-between;
+            height: 100%;
+        }
+    } 
+
+}

@@ -1,0 +1,71 @@
+@use  "../base/config"  as *;
+// .link {
+//     padding: 1rem 1.8rem;
+ 
+//     border-radius: 1rem;
+  
+//     color: white;
+//     display: inline-block
+
+//     &__logo {
+//         width: 100%;
+//         display: block;
+        
+//         border: 0;
+
+//     }
+// }
+
+// .link:hover {
+//     background-color: #ccc;
+//     color: #333;
+// } 
+
+
+// .link.link--logo {
+//     background-color: white;
+// }
+
+.link {
+
+  &__footer {
+    color: #d9d9d9;
+    margin-bottom: 1rem;
+  }
+    &--nav{
+  
+    font-weight: normal;
+    color:  hsl(233, 26%, 24%);
+    border-radius: .8rem;
+    padding: 2rem  1.5rem;
+    display: block;
+    transition: all .4s ease-in-out;
+    position: relative;
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+
+
+    }
+
+    &--nav:hover{
+          text-decoration-line: underline;
+          color: black;
+         
+        
+        }
+}
+
+
+@media (min-width: 768px){
+
+  nav {
+    &--nav{
+       
+        padding: .8rem 1.8rem;
+    
+      
+        }
+  }
+
+}

@@ -1,0 +1,25 @@
+
+
+
+@use  "../util/mixin" as *;
+
+@use  "../module/button" as *;
+
+
+.is--hidden{
+    display: none;
+}
+
+
+
+// State: Active
+.button.is--active {
+    @include button-init(navy, white);
+  }
+  
+  // State: Disabled
+  .button.is--disabled {
+    @include button-init(gray, white);
+    cursor: not-allowed;
+    opacity: 0.6;
+  }

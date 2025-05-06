@@ -1,0 +1,104 @@
+
+
+.img {
+
+  
+ 
+
+    &__header--inner--mobile {
+       
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    &__header--inner--desktop {
+
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+       
+    }
+
+    &__header--top {
+
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        top: -400px;
+        // right: -100px;
+    }
+
+   &__card {  
+   
+    margin-bottom: .7rem;
+   }
+
+
+
+
+}
+
+
+@media (min-width: 768px){
+
+    .img {
+
+    &__header--inner--mobile {
+       display: none;
+    }
+
+    &__header--inner--desktop {
+
+        display: block;
+         position: absolute;
+         top: 0;
+         right: 0;
+         width: 50%;
+       
+    }
+
+
+    &__header--top {
+
+        width: 50%;
+        position: absolute;
+        top: -270px;
+     
+        
+        
+        
+    }
+
+    &__card {
+        width: 100%;
+      
+        height: 200px;
+    }
+
+
+    }
+
+    figure {
+     
+        width: 100%;
+        height: unset;
+    }
+}
+
+
+
+figure {
+    
+    width: 100%;
+    height: unset;
+}
+
+img  {
+    height: unset;
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+
+
+.box {
+     
+      &__social {
+          
+      
+      display: flex;
+    
+      gap: .5rem;
+          
+         
+      }
+
+      &__social--cover {
+        border: 2px solid red;
+        height: 100px;
+        margin-right: .4rem;
+       
+      }
+}

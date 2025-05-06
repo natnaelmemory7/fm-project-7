@@ -1,0 +1,30 @@
+
+.list {
+  
+    &--nav {
+        background-color: white;
+        
+    }
+    &__list {
+
+    }
+
+}
+
+.list--footer {
+    .link.link--list {
+       
+        display: block;
+    }
+    
+    .link.link--list:hover {
+        background-color: white;
+    }
+}
+
+.list.list--nav {
+    box-shadow: none;
+}
+
+
+

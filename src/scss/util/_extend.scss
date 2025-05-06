@@ -1,0 +1,151 @@
+
+
+%heading--1 {
+
+    font-size: 4rem;
+    text-align: center;
+    
+}
+
+
+
+%heading--2 {
+
+    font-size: 3.2rem;
+    text-align: center;
+   
+}
+
+
+
+%heading--3 {
+
+    font-size: 2rem;
+    text-align: center;
+ 
+    
+}
+
+%heading--4 {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+%heading--5 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 768px){
+
+
+    %heading--1 {
+       text-align: left;
+       font-size: 5.6rem;
+    }
+    
+    %heading--2 {
+    
+       font-size: 4rem;
+       text-align: left;
+        
+    }
+    
+    
+    
+    %heading--3 {
+    
+        font-size: 2.4rem;
+        text-align: left;
+        
+    }
+
+    %heading--4 {
+        font-size: 1.6rem;
+        text-align: left;
+    }
+
+    %heading--5 {
+        font-size: 1rem;
+
+         text-align: left;
+    }
+
+}
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+
+%body--1 {
+ font-size: 1.6rem;
+ color: #9597A5;
+
+}
+
+
+%body--2 {
+font-size: 1.5rem;
+// color: #9597A5;
+text-align: center;
+color: #9597A5;
+
+}
+
+
+%body--3 {
+  font-size: 1.3rem;
+  color: #9597A5;
+}
+
+
+@media screen and (min-width: 768px){
+
+    %body--1 {
+      font-size: 1.8rem;
+      color: #9597A5;
+      text-align: left;
+    }
+    
+    
+    %body--2 {
+    font-size: 1.6rem;
+    color: #9597A5;
+    text-align: left;
+    }
+    
+    
+    %body--3 {
+      font-size: 1.3rem;
+      color: #9597A5;
+      text-align: left;
+    }
+}
+
+
+//link
+
+%link1 {
+    font-size: 1.8rem;
+    color: red;
+}
+
+%l--2 {
+font-size: 1.5rem;
+}
+
+
+@media(min-width: 768px) {
+
+  %link1 {
+    font-size: 1.4rem;
+  }
+
+  %l--2 {
+   font-size: 1.5rem;
+  }
+}
+
+
+

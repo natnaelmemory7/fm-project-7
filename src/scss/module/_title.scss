@@ -1,0 +1,52 @@
+@use "../util/extend"  as *;
+
+@use  "../base/config" as *;
+
+
+.title-1 {
+  @extend %heading--1;
+    color:  
+    hsl(233, 26%, 24%);
+    font-weight: 200;
+}
+
+.title-2 {
+  @extend %heading--2;
+  color:    hsl(233, 26%, 24%);
+  font-weight: 200;
+
+}
+
+
+
+.text-1 {
+    @extend %body--1;
+}
+
+.title-3 {
+  @extend %heading--3;
+  font-weight: 200;
+  color:    hsl(233, 26%, 24%);
+}
+
+.title-4 {
+  @extend %heading--4;
+  font-weight: 200;
+  color:    hsl(233, 26%, 24%);
+}
+
+.title-5 {
+  @extend %heading--5;
+  font-weight: 200;
+  color:    hsl(233, 26%, 24%);
+}
+
+.text-2 {
+  @extend %body--2;
+
+}
+
+.text-3 {
+  @extend %body--3;
+
+}
