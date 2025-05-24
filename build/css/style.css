@@ -227,6 +227,7 @@ section {
   margin-top: 70px;
   position: relative;
   background-color: #F4F5F7;
+  padding-bottom: 2rem;
 }
 
 .card {
@@ -422,10 +423,13 @@ img {
 .list--nav {
   background-color: white;
 }
-.list--footer .link.link--list {
+.list.list__footer {
+  text-align: center;
+}
+.list.list__footer .link.link--list {
   display: block;
 }
-.list--footer .link.link--list:hover {
+.list.list__footer .link.link--list:hover {
   background-color: white;
 }
 
@@ -564,9 +568,12 @@ img {
   gap: 0.5rem;
 }
 .box__social--cover {
-  border: 2px solid red;
   height: 100px;
   margin-right: 0.4rem;
+}
+.box__social--cover img {
+  width: 20px !important;
+  margin-top: 2rem;
 }
 
 .button {

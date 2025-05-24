@@ -11,13 +11,15 @@
 
 }
 
-.list--footer {
+.list.list__footer {
+     text-align: center;
+     
     .link.link--list {
        
         display: block;
     }
     
-    .link.link--list:hover {
+                          .link.link--list:hover {
         background-color: white;
     }
 }

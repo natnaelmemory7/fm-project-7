@@ -13,9 +13,12 @@
       }
 
       &__social--cover {
-        border: 2px solid red;
+      
         height: 100px;
         margin-right: .4rem;
-       
+       img {
+        width: 20px !important;
+        margin-top: 2rem;
+       }
       }
 }
